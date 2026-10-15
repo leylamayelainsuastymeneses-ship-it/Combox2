@@ -33,6 +33,7 @@ $sql="
  } else{
     echo "User hasn't been created into supa database !!!";
  }
+ 
  echo "<script>('User hasn't been created successfully :::')</script>";
  HEADER('refresh:0;url=login.html');
 
